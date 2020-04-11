@@ -31,3 +31,10 @@ Then log into the site and view the feedback.
 The alert that pops up shows that a stored XSS attack has been performed.
 
  https://user-images.githubusercontent.com/26352156/79035932-ec0fbb00-7b77-11ea-9fe5-d261d7b8daa3.png
+ 
+ RED
+ 
+ Vulnerability - Insecure Direct Object Reference
+Enter different numbers as the "id" in the URL by changing the GET request until you find access to the hidden user's accounts.
+id = 10, and 11 give hidden user accounts.
+
