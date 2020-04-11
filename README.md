@@ -38,3 +38,4 @@ The alert that pops up shows that a stored XSS attack has been performed.
 Enter different numbers as the "id" in the URL by changing the GET request until you find access to the hidden user's accounts.
 id = 10, and 11 give hidden user accounts.
 
+ID = 10: https://user-images.githubusercontent.com/26352156/79035944-fc279a80-7b77-11ea-93f0-7f5b2a6eef4d.png
