@@ -48,4 +48,5 @@ Vulnerability - SQL Injection Attack
 Similar to the IDOR attack, change the GET request by entering an SQL query instead of a valid salesperson's id.
 The following SQL queries can be used to perform the SQLi attack: ' OR SLEEP(2) = 0 --' --> this makes the database wait for 2 seconds before querying ' OR 1=1 --' --> This returns the first salesperson's id everytime.
 
+https://user-images.githubusercontent.com/26352156/79035956-0ba6e380-7b78-11ea-9f4a-78c24d93ecaa.png
 
