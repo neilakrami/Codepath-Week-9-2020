@@ -26,5 +26,4 @@ Enter the following script into the feedback section of the public site: <script
 Then log into the site and view the feedback.
 The alert that pops up shows that a stored XSS attack has been performed.
 
- 
-
+ https://user-images.githubusercontent.com/26352156/79035932-ec0fbb00-7b77-11ea-9fe5-d261d7b8daa3.png
