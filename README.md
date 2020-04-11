@@ -10,6 +10,9 @@ Cross-Site Scripting (XSS)
 Cross-Site Request Forgery (CSRF)
 Session Hijacking/Fixation
 
+
+https://user-images.githubusercontent.com/26352156/79035940-f631b980-7b77-11ea-8320-994647e72b2f.png
+
 GREEN
 
 Vulnerability 1 - Stored Cross Site Scripting Attack
