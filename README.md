@@ -41,3 +41,11 @@ id = 10, and 11 give hidden user accounts.
 ID = 10: https://user-images.githubusercontent.com/26352156/79035944-fc279a80-7b77-11ea-93f0-7f5b2a6eef4d.png
 
 ID = 11: https://user-images.githubusercontent.com/26352156/79035951-034ea880-7b78-11ea-9abf-c5668fda4dfd.png
+
+BLUE
+
+Vulnerability - SQL Injection Attack
+Similar to the IDOR attack, change the GET request by entering an SQL query instead of a valid salesperson's id.
+The following SQL queries can be used to perform the SQLi attack: ' OR SLEEP(2) = 0 --' --> this makes the database wait for 2 seconds before querying ' OR 1=1 --' --> This returns the first salesperson's id everytime.
+
+
