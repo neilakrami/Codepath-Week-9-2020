@@ -12,12 +12,14 @@ Session Hijacking/Fixation
 
 GREEN
 
-Vulnerability 2 - Username Enumeration
+Vulnerability  - Username Enumeration
 Try logging into a real user's account with the wrong password, and you get a message in bold letters.
 Log in with a random username and password, and you get a message which does not have bold letters.
 An attacker can use this clue to find valid usernames. 
 
 https://user-images.githubusercontent.com/26352156/79035940-f631b980-7b77-11ea-8320-994647e72b2f.png
+https://user-images.githubusercontent.com/26352156/79035942-f9c54080-7b77-11ea-8125-3302c98d0a91.png
+
 GREEN
 
 Vulnerability 1 - Stored Cross Site Scripting Attack
