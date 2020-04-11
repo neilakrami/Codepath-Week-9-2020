@@ -16,7 +16,7 @@ Vulnerability 1 - Stored Cross Site Scripting Attack
 Enter the following script into the feedback section of the public site: <script>alert('Nilab found the XSS!');</script>
 Then log into the site and view the feedback.
 The alert that pops up shows that a stored XSS attack has been performed.
-Screen Shot 2020-04-10 at 8.49.48 PM.png
+https://user-images.githubusercontent.com/26352156/79035932-ec0fbb00-7b77-11ea-9fe5-d261d7b8daa3.png
  
 
 
