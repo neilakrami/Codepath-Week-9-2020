@@ -17,3 +17,6 @@ Enter the following script into the feedback section of the public site: <script
 Then log into the site and view the feedback.
 The alert that pops up shows that a stored XSS attack has been performed.
 Screen Shot 2020-04-10 at 8.49.48 PM.png
+ 
+
+
