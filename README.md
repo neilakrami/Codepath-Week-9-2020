@@ -25,7 +25,7 @@ https://user-images.githubusercontent.com/26352156/79035942-f9c54080-7b77-11ea-8
 
 GREEN
 
-Vulnerability 1 - Stored Cross Site Scripting Attack
+Vulnerability  - Stored Cross Site Scripting
 Enter the following script into the feedback section of the public site: <script>alert('Nilab found the XSS!');</script>
 Then log into the site and view the feedback.
 The alert that pops up shows that a stored XSS attack has been performed.
@@ -34,7 +34,7 @@ The alert that pops up shows that a stored XSS attack has been performed.
  
  RED
  
- Vulnerability - Insecure Direct Object Reference
+Vulnerability - Insecure Direct Object Reference
 Enter different numbers as the "id" in the URL by changing the GET request until you find access to the hidden user's accounts.
 id = 10, and 11 give hidden user accounts.
 
@@ -45,8 +45,8 @@ ID = 11: https://user-images.githubusercontent.com/26352156/79035951-034ea880-7b
 BLUE
 
 Vulnerability - SQL Injection Attack
-Similar to the IDOR attack, change the GET request by entering an SQL query instead of a valid salesperson's id.
-The following SQL queries can be used to perform the SQLi attack: ' OR SLEEP(2) = 0 --' --> this makes the database wait for 2 seconds before querying ' OR 1=1 --' --> This returns the first salesperson's id everytime.
+Change the GET request by entering an SQL query instead of a valid salesperson's id.
+The following SQL queries can be used to perform the SQL attack:( ' OR 1=1 --' ) This returns the first salesperson's id everytime.
 
 https://user-images.githubusercontent.com/26352156/79035956-0ba6e380-7b78-11ea-9f4a-78c24d93ecaa.png
 
