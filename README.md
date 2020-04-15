@@ -25,6 +25,7 @@ NOT BOLD LETTERs
 The class is different for the error message.(failed)
 https://user-images.githubusercontent.com/26352156/79035942-f9c54080-7b77-11ea-8125-3302c98d0a91.png
 
+
 GREEN
 
 Vulnerability  - Stored Cross Site Scripting
@@ -32,7 +33,10 @@ Enter the following script into the feedback section of the public site: <script
 Then log into the site and view the feedback.
 The alert that pops up shows that a stored XSS attack has been performed.
 
- https://user-images.githubusercontent.com/26352156/79035932-ec0fbb00-7b77-11ea-9fe5-d261d7b8daa3.png
+ <img src="https://user-images.githubusercontent.com/26352156/79035932-ec0fbb00-7b77-11ea-9fe5-d261d7b8daa3.png">
+
+<img src="https://github.com/neilakrami/Codepath-Week-9-2020/blob/master/Neil-XSS-exploit.png">
+https://github.com/neilakrami/Codepath-Week-9-2020/blob/master/Neil-XSS-exploit.png
  
  RED
  
@@ -50,5 +54,5 @@ Vulnerability - SQL Injection Attack
 Change the GET request by entering an SQL query instead of a valid salesperson's id.
 The following SQL queries can be used to perform the SQL attack:( ' OR 1=1 --' ) This returns the first salesperson's id everytime.
 
-https://user-images.githubusercontent.com/26352156/79035956-0ba6e380-7b78-11ea-9f4a-78c24d93ecaa.png
+<img src="https://user-images.githubusercontent.com/26352156/79035956-0ba6e380-7b78-11ea-9f4a-78c24d93ecaa.png">
 
