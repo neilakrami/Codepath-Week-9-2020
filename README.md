@@ -33,7 +33,7 @@ Enter the following script into the feedback section of the public site: <script
 Then log into the site and view the feedback.
 The alert that pops up shows that a stored XSS attack has been performed.
 
- <img src="https://user-images.githubusercontent.com/26352156/79035932-ec0fbb00-7b77-11ea-9fe5-d261d7b8daa3.png">
+ <img src="https://github.com/neilakrami/Codepath-Week-9-2020/blob/master/Screen%20Shot%202020-04-14%20at%2010.16.44%20PM.png">
 
 <img src="https://github.com/neilakrami/Codepath-Week-9-2020/blob/master/Neil-XSS-exploit.png">
 <img src="https://github.com/neilakrami/Codepath-Week-9-2020/blob/master/Neil-XSS-exploit.png">
